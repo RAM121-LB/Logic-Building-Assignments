@@ -29,6 +29,5 @@ int main()
 
 /*
 Output :
-Enter number of Times which star has to be Print :6
-******
+*****
 */
