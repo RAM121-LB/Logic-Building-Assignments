@@ -20,8 +20,7 @@ int main()
 {
     int iValue = 0;
     
-    printf("Enter number of Times which star has to be Print : ");
-    scanf("%d",&iValue);
+    iValue = 5;
 
     Accept(iValue);
     return 0;
