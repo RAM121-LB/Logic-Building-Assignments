@@ -16,17 +16,10 @@ UINT Onbit(UINT iNo)
     int iCnt = 0;
 
     UINT iResult = 0;
-    UINT Mask1 = 1;
+    UINT Mask1 = 15;
 
     iResult = iNo | Mask1;
-    
-    for(iCnt = 0; iCnt < 4; iCnt++)
-    {
-        Mask1 = Mask1 << iCnt;
-        iResult = iResult | Mask1;
-        Mask1 = 1;
-    }
-    
+
     return iResult;
 }
 int main()
